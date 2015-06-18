@@ -1,0 +1,29 @@
+# This Program take a word from the user and translates it to pig latin
+# Learned from CodeAcademy
+# Pig Latin is moving the first letter of the word to the end and adding 'ay'
+
+print 'Learn Pig Latin'
+
+pyg = 'ay'
+
+while True:
+  
+# Get the desired word from the user
+  original = raw_input('Enter a word:')
+
+# Ensure entered word is in lowercase
+  word = original.lower()
+
+# Slice the first letter of the original word
+  first = word[0]
+
+# Forms the Pig Latin of the word
+# Takes the original word minus the first letter + the first letter of the word + 'ay'
+  new_word = word[1:len(word)] + first + pyg
+  
+# Checks the validity of the word
+# Word is accepted if there are at least 1 letter and there are no numbers 
+  if len(original) > 0 and original.isalpha():
+    print '\n%s = %s\n' %(original,new_word)
+  else:
+    print 'Not a Valid Word'
