@@ -1,0 +1,19 @@
+# Notes regarding Python
+
+#Strings
+# Strings contain letters, numbers & symbols
+# The follwing are basic methods involving strings
+
+variable = "Paragon"
+print variable
+
+# len() : outputs the length
+x = len(variable)
+
+# .lower() - returns lower case of string
+y = variable.lower()
+
+# .upper() - returns upper case of string
+z = variable.upper()
+
+print "%s has %s letters and the definition of %s is 'a thing viewed as a model of excellence.' %s!" %(variable,x,y,z)
