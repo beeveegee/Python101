@@ -9,3 +9,8 @@ as well as any programs I created in the process.
 ```
 Translates words into Pig Latin
 ```
+
+####Strings
+```
+Shows an example using len(), .lower(), and .upper()
+```
