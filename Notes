@@ -4,6 +4,8 @@
 # Strings contain letters, numbers & symbols
 # The follwing are basic methods involving strings
 
+print "Strings example using len(), .lower(), and .upper()"
+
 variable = "Paragon"
 print variable
 
